@@ -22,6 +22,6 @@ https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
 
 
 
-## Configuring wifi using 
+## Configuring wifi using cli 
 
 sudo iwlist wlan0 scan
