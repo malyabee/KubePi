@@ -19,3 +19,9 @@ https://github.com/teamserverless/k8s-on-raspbian/blob/master/GUIDE.md
 kubernetes 1.7 centos7 installation
 
 https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
+
+
+
+## Configuring wifi using 
+
+sudo iwlist wlan0 scan
