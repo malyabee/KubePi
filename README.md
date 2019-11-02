@@ -22,6 +22,18 @@ https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
 
 
 
-## Configuring wifi using cli 
+## Configure Localization and  wifi using cli 
+
+Use raspi-config command to change 
+     * Localization to US english
+     * Keyboard layout and
+     * Wifi configuration
+     
+     
+
+
+
+
+sudo iwlist wlan0 scan
 
 sudo iwlist wlan0 scan
