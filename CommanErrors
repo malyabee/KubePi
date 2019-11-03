@@ -1,0 +1,26 @@
+Check following page to indentify supported versin
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
+## Installing docker 
+curl -sSL https://get.docker.com | sh
+
+sudo usermod -aG docker pi
+
+
+
+
+# Comman Warnings/Error while istalling  docker
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_IN"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_IN").
+
+
+Kubernetes not supporting debien 10. We have to work on 9+ version
+
+
+https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
+
