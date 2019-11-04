@@ -24,6 +24,8 @@ kubernetes 1.7 centos7 installation
 
 https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
 
+https://medium.com/better-programming/build-your-own-multi-node-kubernetes-cluster-with-monitoring-346a7e2ef6e2
+
 
 
 
