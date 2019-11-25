@@ -10,6 +10,9 @@ To display cluster health status
 To view the nodes in the cluster
             kubectl get nodes
             
+To view kube-system pods details 
+            kubectl get pods -n kube-system  -w
+            
 2. Containers deployment on kubernetes cluster
 
 Deploying nginx on kubernetes cluster
@@ -29,3 +32,10 @@ Get allocated port
           
 now we can access ngnix  
     curl localhost:<port i.e. output of above command>
+
+
+
+3.  kubectl apply command
+
+
+4. kubectl get pods -n kube-system  -w
