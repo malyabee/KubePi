@@ -1,0 +1,31 @@
+Kubectl commands
+
+Kubernetes cluster can be interacted with using the "kubectl" CLI.
+
+1. Commands to know Status or info of Kubernetes cluster
+
+To display cluster health status
+            kubectl cluster-info
+            
+To view the nodes in the cluster
+            kubectl get nodes
+            
+2. Containers deployment on kubernetes cluster
+
+Deploying nginx on kubernetes cluster
+          kubectl create deployment my-deployment --image=nginx
+
+To view status of the deployment and pods information
+          kubectl get pods
+          
+          
+          
+Expose port , NodePort  provides a dynamic port to a container 
+    kubectl expose deployment my-deployment --port=80 --type=NodePort
+
+Get allocated port 
+   kubectl get svc my-deployment -o go-template='{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}'
+          
+          
+now we can access ngnix  
+    curl localhost:<port i.e. output of above command>
