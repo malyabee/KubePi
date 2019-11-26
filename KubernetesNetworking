@@ -60,8 +60,27 @@ spec:
     ** Automates the deplouyment , Scaling and management of applications
     ** Master and worker architecutre model
        *** Multiple master nodes and multiple worker nodes may exist for HA
-       *** The kubernetes control nodes  
+       *** The kubernetes control plane --- (master nodes)
        
+            Controller Manager -- 
+            API Server 
+            etcd database
+            
+       ***  Nodes
+             - Kubelet
+             - container runtime manager
+             - Kube Proxy
+             
+      
+    ** Kubernetes Key objects
+         *** Pods
+         *** Services
+         *** Volumes
+         *** Namespaces
+         *** Ingresses
+         
+             
+             
 * Kubernetes cluster core component network communication aspects
 * Kubernetes core object communication aspects
 * Kubernetes Cluster network security
@@ -75,4 +94,6 @@ spec:
 
 Ref : https://www.katacoda.com/courses/kubernetes/networking-introduction
 https://kubernetes.io/docs/concepts/services-networking/service/
+
+https://community.oracle.com/docs/DOC-1027008
 
