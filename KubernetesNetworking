@@ -55,5 +55,24 @@ spec:
 
 
 
+* Kubernetes architecture and core components
+    ** Open source container orchestration system
+    ** Automates the deplouyment , Scaling and management of applications
+    ** Master and worker architecutre model
+       *** Multiple master nodes and multiple worker nodes may exist for HA
+       *** The kubernetes control nodes  
+       
+* Kubernetes cluster core component network communication aspects
+* Kubernetes core object communication aspects
+* Kubernetes Cluster network security
+
+
+
+
+
+
+
 
 Ref : https://www.katacoda.com/courses/kubernetes/networking-introduction
+https://kubernetes.io/docs/concepts/services-networking/service/
+
